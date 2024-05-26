@@ -22,7 +22,7 @@ In this step, we'll create an AWS CodePipeline to automate the continuous integr
 - For the source stage, select "GitHub" as the source provider.
 - Connect your GitHub account to AWS CodePipeline and select your repository.
 - Choose the branch you want to use for your pipeline.
-- In the build stage, select "AWS CodeBuild" as the build provider.
+- In the build stage, select "AWS CodeBuild" as the build provider. 
 - Create a new CodeBuild project by clicking on the "Create project" button.
 - Configure the CodeBuild project with the necessary settings for your Python application, such as the build environment,  build commands, and artifacts.
 - Save the CodeBuild project and go back to CodePipeline.
